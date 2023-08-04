@@ -25,18 +25,23 @@ font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
+
 margin-bottom: 40px;
+margin-top: 3px;
 }
 /* top players style */
+.top-players{
+    margin-bottom: 30px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player{
     display: flex;
     align-items: center;
-    margin-bottom: 29px;
+    
 }
 
 .player img{
@@ -46,4 +51,34 @@ margin-bottom: 40px;
 }
 .player-name{
     margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    width: 807px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+/* top-blog-style */
+.blog{
+    display: flex;
+}
+.thumbnail img{
+    width: 224px;
+    height: 127px;
+}
+.details{
+    margin-left: 10px;
+}
+.blog-title{
+    font-size: 20px;
+    height: 68px;
+    width: 163px;
+}
+.author{
+    font-size: 16px;
+}
+.author a{
+    color: #562EFF;
+    text-decoration: none;
 }
